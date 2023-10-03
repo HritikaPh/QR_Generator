@@ -1,0 +1,48 @@
+/* Style for GenerateQR component */
+.GenerateQR {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  .GenerateQR h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .GenerateQR label {
+    font-size: 16px;
+  }
+  
+  .GenerateQR input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .GenerateQR button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .GenerateQR button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the QR code */
+  .qr-code {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .qr-code img {
+    max-width: 100%;
+  }
+  

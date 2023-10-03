@@ -7,6 +7,32 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.react-tel-input .form-control {
+ 
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    margin: 10px;
+  
+}
+
+.opt-container {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    margin: 10px;
+
+  }
+
+  .opt-container input {
+      margin: 0;
+      flex: 1;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      outline: none;  
+  }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
